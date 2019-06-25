@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/src/asstes/favicon.ico" type="image/x-icon">
+    <title>轱辘</title>
+    <style>
+    *{margin: 0;padding: 0;box-sizing: border-box;}
+    /* html与:root都为作用域 */
+    :root{
+        --button-height: 32px;
+        --font-size: 14px;
+        --button-bg: white;
+        --button-active: #eee;
+        --border-radius: 4px;
+        --color: #333;
+        --border-color: #999;
+        --border-color-hover: #666;
+    }
+    body{font-size: var(--font-size)}
+    .button{margin-top:10px;}
+    [v-cloak]{display: none;}
+    </style>
+    <style>
+        .demo {
+            border: 1px solid #666;
+            min-height: 100px;
+        }
+        .sider {
+            background: #333;
+            width: 200px;
+        }
+        .header {
+            background: #999;
+            height: 100px;
+
+        }
+        .footer {
+            background: #ccc;
+           height: 50px;
+        }
+    </style>
+</head>
+<body> 
+    <div id="app" v-cloak>
+       <g-layout style="height: 100vh">
+           <g-sider>Sider</g-sider>
+           <g-layout>
+                <g-header>header</g-header>
+                <g-content>content</g-content>
+                <g-footer>footer</g-footer>
+           </g-layout>
+       </g-layout>
+    </div>
+
+<script src="./src/app.js"></script>
+
+</body>
+</html>
