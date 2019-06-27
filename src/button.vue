@@ -1,6 +1,6 @@
 <template>
     <button class="g-button" :class="{[`icon-${iconPosition}`]: true}"
-    @click="$emit('click')">
+    @click="$emit('click')" :disabled="disabled">
         <g-icon v-if="icon && !loading" :name="icon"></g-icon>
         <g-icon v-if="loading" class="loading icon" name="loading"></g-icon>
         <div class="content">
@@ -18,8 +18,14 @@ export default {
     },
     // props:['icon','iconPosition']
     props:{
-        icon:{},
+        icon:{
+            type: String
+        },
         loading:{   
+            type: Boolean,
+            default: false
+        },
+        disabled: {
             type: Boolean,
             default: false
         },
@@ -60,6 +66,11 @@ $border-color-hover: #666;
     &:hover{border-color: $border-color-hover}
     &:active{background-color: $button-active-bg}
     &:focus{outline: none;}
+    &[disabled]{
+          border-color: #aaa;
+          color: #aaa;
+          cursor: not-allowed;
+          }
     // 默认为icon在slot的前面
     > .icon{order: 1;margin-right: .1em;margin-top: .2em;}
     > .content{order: 2}

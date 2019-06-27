@@ -1,29 +1,30 @@
 module.exports = {
-    base: '/gulu/',
-    title: '轱辘UI',
-    description: '一个好用的UI框架',
-    themeConfig: {
-      nav: [
-        {text: '主页', link: '/'},
-        {text: '文档', link: '/guide/'},
-        {text: '交流', link: 'https://google.com'},
-      ],
+  base:'/gulu/',
+  title: '轱辘-UI',
+  description: '一个简单的 UI 框架',
+  themeConfig: {
       sidebar: [
-        {
-          title: '入门',
-          collapsable: false,
-          children: [
-            '/install/',
-            '/get-started/',
-          ]
-        },
-        {
-          title: '组件',
-          collapsable: false,
-          children: [
-            '/components/button',
-          ]
-        }
+          {
+              title: '入门',
+              collapsable: false,
+              children: [
+                  '/install/',
+                  '/get-started/'
+              ]
+          },
+          {
+              title: '组件',
+              children: [ 
+                  '/components/button',
+                  '/components/input',
+                  '/components/layout',
+                  '/components/tabs',
+                  '/components/toast',
+                  '/components/popover',
+                  '/components/collapse',
+                  '/components/Grid'
+              ]
+          }
       ]
-    }
   }
+}
