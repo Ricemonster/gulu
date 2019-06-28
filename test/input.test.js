@@ -20,7 +20,7 @@ describe('Input', () => {
                 }
             }).$mount()
             const inputElement = vm.$el.querySelector('input')
-            expect(inputElement.value).to.equal('1234')
+            expect(inputElement.placeholder).to.equal('1234')
             vm.$destroy()
         })
 

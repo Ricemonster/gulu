@@ -14,9 +14,11 @@
 </template>
 <script>
   import Button from '../../../src/button'
+  import Icon from '../../../src/icon'
   export default {
     components: {
-      'g-button': Button
+      'g-button': Button,
+      'g-icon': Icon
     },
     data () {
       return {

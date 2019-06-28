@@ -1,6 +1,6 @@
 {
   "name": "gulu-rm",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "作者：Ricemonster",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "dev-test": "parcel watch test/* --no-cache & karma start",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "npm-build": "npx parcel build index.js --no-cache --no-minify"
   },
   "repository": {
     "type": "git",

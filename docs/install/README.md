@@ -4,14 +4,18 @@ title: 安装
 
 # 安装
 
-本章节待完善
+::: tip npm 安装
+推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。
+:::
 
 ```bash
-npm install gulu
+npm install --save gulu-rm
 ```
 
-或
+::: warning yarn 安装
+推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。
+:::
 
 ```bash
-yarn add gulu
+yarn add gulu-rm
 ```

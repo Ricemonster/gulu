@@ -2,6 +2,9 @@ module.exports = {
   base:'/gulu/',
   title: '轱辘-UI',
   description: '一个简单的 UI 框架',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
       sidebar: [
           {
