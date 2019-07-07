@@ -1,6 +1,9 @@
 # 轱辘
 
 [![Build Status](https://www.travis-ci.org/Ricemonster/gulu.svg?branch=master)](https://www.travis-ci.org/Ricemonster/gulu)
+[![Build Status](https://img.shields.io/npm/v/gulu-rm.svg?branch=master)](https://www.npmjs.com/package/gulu-rm)
+
+
 
 
 
