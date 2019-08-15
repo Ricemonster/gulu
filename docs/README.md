@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
 - title: 简洁至上
   details: 以最少的代码构建整个UI界面。简洁的代码，简洁的设计，高质量的使用，是我们一贯的追求

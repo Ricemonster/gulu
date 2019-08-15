@@ -11,21 +11,12 @@ title: Input - 文本输入
 </ClientOnly>
 
 <ClientOnly>
-<input-demos-1></input-demos-1>
+<input-demos-2></input-demos-2>
 </ClientOnly>
 
 <ClientOnly>
-<input-demos-1></input-demos-1>
+<input-demos-3></input-demos-3>
 </ClientOnly>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -34,6 +25,6 @@ title: Input - 文本输入
 | 参数        | 说明           | 类型  | 可选值 |  默认值 |
 | ------------- |:-------------:| -----:|-----:|-----:|
 | value      | 输入框默认文字 | String | --- | --- |
-| loading   | 按钮的图标加载效果      |   Boolean | true,false | false |
-| disabled | 按钮的禁止点击效果      |    Boolean | true,false | false|
-| iconPosition      | icon位于文字的位置      |   String | right,left |  left |
+| readonly   |   只读状态    |   Boolean | true,false | false |
+| disabled | 禁止状态      |    Boolean | true,false | false|
+| error     | 提示信息      |   String | --- |  --- |

@@ -3,13 +3,13 @@ import Button from './button'
 import Icon from './icon'
 import Group from './button-group'
 import Input from './input'
-import Row from './row'
-import Col from './col'
-import Layout from './layout'
-import Header from './header'
-import Content from './content'
-import Sider from './sider'
-import Footer from './footer'
+import Row from './grid/row'
+import Col from './grid/col'
+import Layout from './layout/layout'
+import Header from './layout/header'
+import Content from './layout/content'
+import Slider from './layout/slider'
+import Footer from './layout/footer'
 
 // 全局注册
 Vue.component('g-button',Button)
@@ -21,7 +21,7 @@ Vue.component('g-col',Col)
 Vue.component('g-layout',Layout)
 Vue.component('g-header',Header)
 Vue.component('g-footer',Footer)
-Vue.component('g-sider',Sider)
+Vue.component('g-slider',Slider)
 Vue.component('g-content',Content)
 
 
